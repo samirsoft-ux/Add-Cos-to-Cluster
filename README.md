@@ -42,8 +42,8 @@ Se recomienda hacer esta implementación sobre un SO Linux para agilizar la inst
    <br />
    <br />
    **Tener en cuenta**
-   * ```En caso que el cluster se encuentre dentro de una VPC```: Modificar la porción del comando "bucketAccessPolicy=true" por "bucketAccessPolicy=false" para permitir la conexión del bucktet con el cluster
-   * ```En caso que el cluster no se encuentre dentro de una VPC```: Mantener la porción del comando "bucketAccessPolicy=true"
+   * ```En caso que el cluster no se encuentre dentro de una VPC```: Modificar la porción del comando "bucketAccessPolicy=true" por "bucketAccessPolicy=false" para permitir la conexión del bucktet con el cluster
+   * ```En caso que el cluster se encuentre dentro de una VPC```: Mantener la porción del comando "bucketAccessPolicy=true"
 
 9. Ingrese el siguiente comando para verificar los Pods creados para el plugin: "kubectl get pod --all-namespaces -o wide | grep object"
    <br />
