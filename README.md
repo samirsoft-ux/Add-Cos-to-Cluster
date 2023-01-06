@@ -5,7 +5,7 @@ Se recomienda hacer esta implementación sobre un SO Linux para agilizar la inst
 ## Tabla de contenido 📑
 1. Instalación del plugin de Cloud Object Storage sobre el clúster utilizando Helm
 2. Almacenamiento de la información del Cloud Object Storage en el Cluster
-3. Asoicación de un Bucket con el cluster
+3. Conexión del Bucket con el cluster
 
 ## Pre-Requisitos :pencil:
 * La cuenta tiene una instancia en plan Standard de Cloud Object Storage <a href="https://cloud.ibm.com/objectstorage/create"> IBM Cloud Object Storage </a>
